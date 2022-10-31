@@ -71,17 +71,6 @@ public class Main {
 			// 좌상, 우하까지 놓이는 걸 검사
 			for (int j = 0; j < fY + sY + 1; j++) {
 				for (int k = 0; k < fX + sX + 1; k++) {
-					for(int q = 0; q < bdY; q++) {
-						Arrays.fill(bd[q], ' ');
-					}
-					
-					// f액자 입력
-					for (int i2 = 0; i2 < fY; i2++) {
-						for (int j2 = 0; j2 < fX; j2++) {
-							// f액자는 s액자의 가로, 세로, 길이부터 놓이게 됨
-							bd[sY + i2][sX + j2] = f[i2][j2];
-						}
-					}
 					
 					isFiled = false;
 					// s입력
@@ -92,8 +81,6 @@ public class Main {
 								isFiled = true;
 								break LOOP;
 							}
-							else
-								bd[j + i2][k + j2] = s[i2][j2];
 						}
 					}
 
