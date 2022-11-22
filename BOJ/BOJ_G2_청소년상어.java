@@ -1,5 +1,3 @@
-package _220407.ChungLee;
-
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.util.Arrays;

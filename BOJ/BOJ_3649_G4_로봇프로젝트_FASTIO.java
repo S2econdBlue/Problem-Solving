@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.io.InputStream;
 import java.util.InputMismatchException;
 
-public class Main {
+public class BOJ_3649_G4_로봇프로젝트_FASTIO {
 	private static final int NANO = 10_000_000;
 	private static final String CORRECT = "yes";
 	private static final String WRONG = "danger";

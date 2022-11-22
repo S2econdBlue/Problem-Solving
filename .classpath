@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="백준/Gold/2539. 모자이크/|BOJ/|백준/Bronze/25083. 새싹/|백준/Gold/1043. 거짓말/|백준/Gold/14890. 경사로/" kind="src" path=""/>
+	<classpathentry kind="src" path="백준/Bronze/25083. 새싹"/>
+	<classpathentry kind="src" path="백준/Gold/1043. 거짓말"/>
+	<classpathentry kind="src" path="백준/Gold/14890. 경사로"/>
+	<classpathentry kind="src" path="백준/Gold/2539. 모자이크"/>
+	<classpathentry kind="src" path="BOJ"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

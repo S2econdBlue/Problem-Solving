@@ -1,4 +1,3 @@
-package _220407.ChungLee;
 
 import java.io.BufferedReader;
 import java.io.IOException;
